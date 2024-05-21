@@ -10154,19 +10154,9 @@ img::-moz-selection {
   }
 }
 header.masthead {
-/*  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 50px;*/
   box-sizing: border-box;
-/*  padding-top: 10.5rem;
-  padding-bottom: 6rem;*/
   text-align: center;
   color: #fff;
-  /*background-image: url("../assets/img/012.jpg");*/
- /* background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top center;
-  background-size: cover;*/
  display: grid;
  justify-content: center;
  align-content: center;
@@ -10229,51 +10219,56 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-@media (min-width: 375px ) {
- /*  .hravertext>div {
-    margin-top: 380px;
-    font-size: 7vmin !important;
-   }*/
-}
 
-@media (max-width: 914px) {
- /*  .hravertext>div {
-    margin-top: 380px;
-    font-size: 7vmin !important;
-   }*/
-}
-@media screen and (max-width: 1180px) and (min-width: 400px){
+@media screen and (max-width: 1180px) and (min-width: 700px){
   .hravertext {
    width: 100%;
    height: 90%;
    background-image: url("../assets/img/leavs01.png");
    background-repeat: no-repeat;
    background-size: cover;
-   /*background-position: center;*/
-   /*border: 1px solid red;*/
-   /*z-index: 1;*/
-   /*box-sizing: border-box;*/
-    /*margin-top: 40px;*/
-   /* background-image: url("../assets/img/image8.jpeg");
-    background-position: top center; */
   }
   .namesection{
     width: 120%;
   }
+  .image-part{
+    height: 310px;
   }
+  .img-big {
+    height: 75vh;
+     background-position: left;
+  }
+  .img-sm {
+     height: 60vh;
+  }
+  }
+  @media screen and (max-width: 700px) and (min-width: 400px){
+  .hravertext {
+   width: 100%;
+   height: 90%;
+   background-image: url("../assets/img/leavsSM.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+  }
+   .namesection{
+    width: 120%;
+  }
+  .image-part{
+    height: 310px;
+  }
+  .img-big {
+    height: 75vh;
+    background-position: left;
+  }
+  .img-sm {
+     height: 60vh;
+  }
+}
 @media (min-width: 768px) {
   header.masthead {
-    /*margin-top: 40px;*/
-    
-   /* padding-top: 17rem;
-    padding-bottom: 12.5rem;
-    background-image: url("../assets/img/012.jpg");
-    background-position: center  center; */
+  
   }
- /*  .hravertext>div {
-    margin-top: 200px;
-    font-size: 6vmin !important;
-   }*/
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
