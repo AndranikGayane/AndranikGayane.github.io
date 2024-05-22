@@ -10230,6 +10230,9 @@ header.masthead .masthead-heading {
     height: 400px;
      background-position: left;
   }
+  .map1{
+    height: 200px;
+  }
  
   .masthead{
     display: grid;
@@ -10237,6 +10240,9 @@ header.masthead .masthead-heading {
  align-content: center;
  align-items: center;
  position: relative;
+  }
+   .sm1 .sm2 {
+    height: 300px !important;
   }
   }
   @media screen and (max-width: 700px) and (min-width: 400px){
@@ -10247,6 +10253,9 @@ header.masthead .masthead-heading {
    background-repeat: no-repeat;
    background-size: cover;
     height: 310px;
+  }
+   .map1{
+    height: 200px;
   }
    .namesection{
     width: 140%;
@@ -10266,6 +10275,9 @@ header.masthead .masthead-heading {
     align-content: center;
     align-items: center;
     position: relative;
+  }
+  .sm1 .sm2 {
+    height: 300px;
   }
 }
 @media (min-width: 768px) {
