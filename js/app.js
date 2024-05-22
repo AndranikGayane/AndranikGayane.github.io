@@ -40,7 +40,12 @@ const audio = new Audio("just.mp3");
 
 const buttons = document.querySelectorAll("#audio");
 audio.currentTime = 74
-
+setTimeout(() => {
+audio.addEventListener("canplaythrough", (event) => {
+  audio.play();
+  console.log(audio)
+});
+});
 buttons.forEach(button => {
   button.addEventListener("click", () => {
     if (audio.paused) {
