@@ -46,8 +46,8 @@ body {
 }
 .headerImage {
   display: grid;
-  grid-template-columns: 25% 49% 25%;
-  grid-gap: 7px;
+  grid-template-columns: 25% 48% 25%;
+  grid-gap: 6px;
   justify-content: center;
   align-content: center;
   align-items: center;
