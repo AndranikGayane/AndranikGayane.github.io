@@ -36,10 +36,10 @@ timerId = setInterval(timeCountDown, 1000);
 
 
 // const audio = new Audio("https://dl2.mp3party.net/online/8450417.mp3");
-const audio = new Audio("just.mp3");
+const audio = new Audio("Perfect.mp3");
 
 const buttons = document.querySelectorAll("#audio");
-audio.currentTime = 74
+// audio.currentTime = 74
 setTimeout(() => {
 audio.addEventListener("canplaythrough", (event) => {
   audio.play();
